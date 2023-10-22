@@ -25,12 +25,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/home_page.css">
+    <link rel="stylesheet" href="/assets/css/about_page.css">
+    <link rel="stylesheet" href="/assets/css/education_page.css">
+
     <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
 <body>
-
+<div class="pre_loader">
+    <div id="pre_loader_over_layer"></div>
+    <img src="assets/img/loading.gif" alt="" width="100px">
+</div>
 <!--Home Page-->
 <!--<div class="circle">
 <div></div>
@@ -56,30 +64,28 @@
 
     <main class="main">
         <section>
-            <span>Hello !</span>
-            <span>I'M <span>IROSH PERERA</span></span>
-            <span>FULL STACK DEVELOPER</span>
+            <span id="txt_hello">Hello !</span>
+            <span id="txt_IM">I'M <span>IROSH PERERA</span></span>
+            <span id="txt_full_stack">FULL STACK DEVELOPER</span>
 
             <button type="button"><span>More About>></span></button>
 
 
-            <div>
+            <div id="icon_list">
                 <div><a href="https://www.linkedin.com/in/irosh-perera-59481727b/"><img src="../assets/img/linkedin.png"
                                                                                         title="linkedin"
                                                                                         alt="linkedin logo"
-                                                                                        width="30" height="30"></a>
+                ></a>
                 </div>
                 <div><a href="https://stackoverflow.com/users/20119095/irosh-lashan"><img
                         src="../assets/img/stack_overflow.png"
                         title="stack_overflow"
-                        alt="stack_overflow logo" width="30"
-                        height="30"></a></div>
+                        alt="stack_overflow logo"></a></div>
                 <div><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src="../assets/img/gmail.png"
                                                                                         alt="gmail logo"
-                                                                                        title="gmail" width="30"
-                                                                                        height="30"></a></div>
+                                                                                        title="gmail"></a></div>
                 <div><a href="https://github.com/IroshPerera"><img src="../assets/img/github.png" title="github"
-                                                                   alt="github logo" width="30" height="30"></a></div>
+                                                                   alt="github logo"></a></div>
 
 
             </div>
@@ -96,17 +102,17 @@
 <!--About Page-->
 
 <section class="about">
-    <section>
+    <section id="about_image">
         <div>
             <h2 id="about">| ABOUT</h2>
         </div>
-        <div>
+        <div  data-aos="zoom-in-down">
             <img src="assets/img/my_about.png" title="My Image" alt="Person">
         </div>
 
     </section>
 
-    <section>
+    <section id="about_content">
 
         <div>
             <h3>I'M SOFTWARE ENGINEER !</h3>
@@ -162,40 +168,56 @@
         </section>
 
         <section>
-            <div>
+            <div data-aos="zoom-in">
                 <img src="assets/img/degree.png" title="Education" alt="Degree logo" height="40">
                 <h3>Higher Education</h3>
-                <h4>2023</h4>
-                <p>BSc (Hons) In <br>
-                    Computer Science <br><br>
-                    Institute of Software <br>
-                    Engineering
-                </p>
+
+                <div>
+
+                    <h4>2023</h4>
+                    <p>BSc (Hons) In <br>
+                        Computer Science <br><br>
+                        Institute of Software <br>
+                        Engineering
+                    </p>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
             </div>
 
-            <div>
+            <div data-aos="zoom-in">
                 <img src="assets/img/degree.png" title="Education" alt="Degree logo" height="40">
                 <h3>Advanced Education</h3>
-                <h4>2021</h4>
-                <p>2021 Advanced Level <br>
-                    Examination <br><br>
-                    Private Candidate
-                </p>
+                <div>
+                    <h4>2021</h4>
+                    <p>2021 Advanced Level <br>
+                        Examination <br><br>
+                        Private Candidate
+                    </p>
+
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
             </div>
 
-            <div>
+            <div data-aos="zoom-in">
                 <img src="assets/img/degree.png" title="Education" alt="Degree logo" height="40">
                 <h3>Ordinary Education</h3>
-                <h4>2018</h4>
-                <p>2018 Ordinary Level <br>
-                    Examination <br><br>
 
-                    Dharmapala Maha <br>
-                    Vidayalaya Kottawa
-                </p>
+                <div>
+                    <h4>2018</h4>
+                    <p>2018 Ordinary Level <br>
+                        Examination <br><br>
+
+                        Dharmapala Maha <br>
+                        Vidayalaya Kottawa
+                    </p>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
             </div>
 
-            <div>
+            <div data-aos="zoom-in">
                 <img src="assets/img/degree.png" title="Education" alt="Degree logo" height="40">
                 <h3>Primary Education</h3>
 
@@ -225,430 +247,321 @@
 
 <!--Projects Page-->
 
-<section>
+
+<section class="project">
     <div>
         <h2 id="projects">| PROJECTS</h2>
     </div>
 
-</section>
 
-<section>
+    <section class="cards">
 
-    <div>
-        <h3>10+</h3>
-        <h4>Complete Projects</h4>
+
+        <div data-aos="fade-up-right">
+
+            <img src="assets/img/te_project.png" title="te_project" alt="project image">
+
+            <h3>Thotawaththa Engineering Factory <br>
+                Mangement System</h3>
+            <p>Thotawaththa Engineering Factory <br>
+                Mangement System</p>
+
+            <a href="https://github.com/IroshPerera/1st_semester_final_project"> <img
+                    src="../assets/img/github.png"
+                    title="github" alt="github logo"></a>
+
+        </div>
+
+
+        <div data-aos="fade-up-left">
+
+            <img src="assets/img/te_project.png" title="te_project" alt="project image" height="80">
+
+            <h3>Thotawaththa Engineering Factory
+                <br>Mangement System</h3>
+            <p>Thotawaththa Engineering Factory <br>
+                Mangement System</p>
+
+            <a href="https://github.com/IroshPerera/1st_semester_final_project"> <img
+                    src="../assets/img/github.png"
+                    title="github" alt="github logo"
+                    width="30" height="30"></a>
+
+        </div>
+
+
+        <div data-aos="fade-up-right">
+
+            <img src="assets/img/te_project.png" title="te_project" alt="project image" height="80">
+
+            <h3>Thotawaththa Engineering Factory <br>
+                Mangement System</h3>
+            <p>Thotawaththa Engineering Factory <br>
+                Mangement System</p>
+
+            <a href="https://github.com/IroshPerera/1st_semester_final_project"> <img
+                    src="../assets/img/github.png"
+                    title="github" alt="github logo"
+                    width="30" height="30"></a>
+
+        </div>
+
+
+    </section>
+
+
+    <div class="project_see_more">
+        <button type="button"><span>See More...</span></button>
     </div>
 
-    <div>
-        <h3>10+</h3>
-        <h4>Group Projects</h4>
-    </div>
-
 </section>
-
-<section>
-
-    <table>
-
-        <thead>
-        <th></th>
-        </thead>
-
-        <tb>
-            <tr>
-
-                <div>
-
-                    <img src="assets/img/te_project.png" title="te_project" alt="project image" height="80">
-
-                    <h3>Thotawaththa Engineering Factory Mangement System</h3>
-                    <p>Thotawaththa Engineering Factory <br>
-                        Mangement System</p>
-
-                    <a href="https://github.com/IroshPerera/1st_semester_final_project"> <img
-                            src="../assets/img/github.png"
-                            title="github" alt="github logo"
-                            width="30" height="30"></a>
-
-                </div>
-            </tr>
-
-            <br>
-
-            <tr>
-                <div>
-
-                    <img src="assets/img/te_project.png" title="te_project" alt="project image" height="80">
-
-                    <h3>Thotawaththa Engineering Factory Mangement System</h3>
-                    <p>Thotawaththa Engineering Factory <br>
-                        Mangement System</p>
-
-                    <a href="https://github.com/IroshPerera/1st_semester_final_project"> <img
-                            src="../assets/img/github.png"
-                            title="github" alt="github logo"
-                            width="30" height="30"></a>
-
-                </div>
-            </tr>
-
-            <br>
-
-            <tr>
-                <div>
-
-                    <img src="assets/img/te_project.png" title="te_project" alt="project image" height="80">
-
-                    <h3>Thotawaththa Engineering Factory Mangement System</h3>
-                    <p>Thotawaththa Engineering Factory <br>
-                        Mangement System</p>
-
-                    <a href="https://github.com/IroshPerera/1st_semester_final_project"> <img
-                            src="../assets/img/github.png"
-                            title="github" alt="github logo"
-                            width="30" height="30"></a>
-
-                </div>
-            </tr>
-        </tb>
-    </table>
-
-</section>
-
-<br>
-<br>
-
-
-<div>
-    <button type="button">See More...</button>
-</div>
-
-
-<hr>
 
 
 <!--Assigment Page-->
+<section class="assigment">
+    <section>
+        <div>
+            <h2 id="assigments">| ASSIGNMENTS</h2>
+        </div>
 
-<section>
-    <div>
-        <h2 id="assigments">| ASSIGNMENTS</h2>
-    </div>
+    </section>
 
+
+    <section>
+
+        <div class="card" data-aos="flip-left">
+            <div class="content">
+                <p class="heading">Assignment 01
+                </p>
+                <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
+                <button class="btn">View</button>
+            </div>
+        </div>
+
+
+        <div class="card" data-aos="flip-left">
+            <div class="content">
+                <p class="heading">Assignment 01
+                </p>
+                <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
+                <button class="btn">View</button>
+            </div>
+        </div>
+
+
+        <div class="card" data-aos="flip-left">
+            <div class="content">
+                <p class="heading">Assignment 01
+                </p>
+                <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
+                <button class="btn">View</button>
+            </div>
+        </div>
+
+
+        <div class="card" data-aos="flip-left">
+            <div class="content">
+                <p class="heading">Assignment 01
+                </p>
+                <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
+                <button class="btn">View</button>
+            </div>
+        </div>
+
+
+        <div class="card" data-aos="flip-left">
+            <div class="content">
+                <p class="heading">Assignment 01
+                </p>
+                <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
+                <button class="btn">View</button>
+            </div>
+        </div>
+
+
+        <div class="card" data-aos="flip-left">
+            <div class="content">
+                <p class="heading">Assignment 01
+                </p>
+                <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
+                <button class="btn">View</button>
+            </div>
+        </div>
+
+
+        <div class="card" data-aos="flip-left">
+            <div class="content">
+                <p class="heading">Assignment 01
+                </p>
+                <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
+                <button class="btn">View</button>
+            </div>
+        </div>
+
+
+        <div class="card" data-aos="flip-left">
+            <div class="content">
+                <p class="heading">Assignment 01
+                </p>
+                <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
+                <button class="btn">View</button>
+            </div>
+        </div>
+
+
+        <div class="card" data-aos="flip-left">
+            <div class="content">
+                <p class="heading">Assignment 01
+                </p>
+                <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
+                <button class="btn">View</button>
+            </div>
+        </div>
+
+
+    </section>
 </section>
-
-<section>
-
-    <div>
-        <h3>10+</h3>
-        <h4>Total Assignment</h4>
-    </div>
-
-</section>
-
-<section>
-
-    <table>
-        <thead>
-        <th></th>
-        <th></th>
-        <th></th>
-        </thead>
-        <tbody>
-        <tr>
-            <td>
-                <div>
-                    <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
-                    <h3>Assignment 01 </h3>
-                    <a href="">
-                        <button type="button">View</button>
-                    </a>
-                </div>
-            </td>
-
-            <td>
-                <div>
-                    <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
-                    <h3>Assignment 02 </h3>
-                    <a href="">
-                        <button type="button">View</button>
-                    </a>
-                </div>
-            </td>
-
-
-            <td>
-                <div>
-                    <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
-                    <h3>Assignment 03 </h3>
-                    <a href="">
-                        <button type="button">View</button>
-                    </a>
-                </div>
-            </td>
-        </tr>
-
-        <tr>
-
-            <td>
-                <div>
-                    <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
-                    <h3>Assignment 04 </h3>
-                    <a href="">
-                        <button type="button">View</button>
-                    </a>
-                </div>
-            </td>
-
-            <td>
-                <div>
-                    <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
-                    <h3>Assignment 05 </h3>
-                    <a href="">
-                        <button type="button">View</button>
-                    </a>
-                </div>
-            </td>
-
-            <td>
-                <div>
-                    <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
-                    <h3>Assignment 06 </h3>
-                    <a href="">
-                        <button type="button">View</button>
-                    </a>
-                </div>
-            </td>
-
-        </tr>
-
-        <tr>
-
-            <td>
-                <div>
-                    <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
-                    <h3>Assignment 07 </h3>
-                    <a href="">
-                        <button type="button">View</button>
-                    </a>
-                </div>
-            </td>
-
-            <td>
-                <div>
-                    <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
-                    <h3>Assignment 08 </h3>
-                    <a href="">
-                        <button type="button">View</button>
-                    </a>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <img src="assets/img/assigment.png" title="te_project" alt="project image" height="40">
-                    <h3>Assignment 09 </h3>
-                    <a href="">
-                        <button type="button">View</button>
-                    </a>
-                </div>
-            </td>
-        </tr>
-        </tbody>
-
-    </table>
-
-</section>
-
-<br>
-<hr>
 
 
 <!--Skills & Achievements Page-->
 
-<section>
-    <div>
+<section class="skills">
+    <section>
+
         <h2 id="skills">| SKILLS & ACHIEVEMENTS</h2>
-    </div>
 
+    </section>
+
+    <section>
+
+
+        <img src="assets/img/java_certificate.png" title="java_certificate" alt="java_certificate.png" height="350">
+
+        <img src="assets/img/sql_certificate.jpg" title="sql_certificate" alt="sql_certificate.jpg" height="350">
+
+
+    </section>
+
+    <section>
+
+
+        <img src="assets/img/java.png" title="Java" alt="java.png" height="60">
+
+        <img src="assets/img/mysql.png" title="Mysql" alt="mysql.png" height="60">
+
+        <img src="assets/img/javascript.png" title="Javascript" alt="javascript.png" height="60">
+
+        <img src="assets/img/html.png" title="Html" alt="html.png" height="60">
+
+        <img src="assets/img/css.png" title="Css" alt="css.png" height="60">
+
+        <img src="assets/img/figma.png" title="Figma" alt="figma.png" height="60">
+
+        <img src="assets/img/sceneBuilder.png" title="SceneBuilder" alt="sceneBuilder.png" height="60">
+
+        <img src="assets/img/intellij.png" title="Intellij Idea" alt="intellij_idea.png" height="60">
+
+        <img src="assets/img/apache_netBeans.png" title="Net Beans" alt="apache_netBeans.png" height="60">
+
+        <img src="assets/img/visual_studio.png" title="Visual Studio" alt="visual_studio.png" height="60">
+
+
+    </section>
 </section>
-
-<section>
-
-    <table>
-
-        <thead>
-        <th></th>
-        <th></th>
-        </thead>
-
-        <tbody>
-        <tr>
-            <img src="assets/img/java_certificate.png" title="java_certificate" alt="java_certificate.png" height="350">
-        </tr>
-        <tr>
-            <img src="assets/img/sql_certificate.jpg" title="sql_certificate" alt="sql_certificate.jpg" height="350">
-        </tr>
-        </tbody>
-
-
-    </table>
-
-</section>
-
-<section>
-
-    <table>
-        <thead>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        </thead>
-
-        <tbody>
-        <tr>
-            <td>
-                <img src="assets/img/java.png" title="Java" alt="java.png" height="60">
-            </td>
-            <td>
-                <img src="assets/img/mysql.png" title="Mysql" alt="mysql.png" height="60">
-            </td>
-            <td>
-                <img src="assets/img/javascript.png" title="Javascript" alt="javascript.png" height="60">
-            </td>
-            <td>
-                <img src="assets/img/html.png" title="Html" alt="html.png" height="60">
-            </td>
-            <td>
-                <img src="assets/img/css.png" title="Css" alt="css.png" height="60">
-            </td>
-            <td>
-                <img src="assets/img/figma.png" title="Figma" alt="figma.png" height="60">
-            </td>
-            <td>
-                <img src="assets/img/sceneBuilder.png" title="SceneBuilder" alt="sceneBuilder.png" height="60">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="assets/img/intellij.png" title="Intellij Idea" alt="intellij_idea.png" height="60">
-            </td>
-            <td>
-                <img src="assets/img/apache_netBeans.png" title="Net Beans" alt="apache_netBeans.png" height="60">
-            </td>
-            <td>
-                <img src="assets/img/visual_studio.png" title="Visual Studio" alt="visual_studio.png" height="60">
-            </td>
-        </tr>
-        </tbody>
-
-    </table>
-
-</section>
-
-<br>
-<hr>
 
 
 <!--Gallery Page-->
+<section class="gallery">
+    <section>
+        <div>
+            <h2 id="gallery">| GALLERY</h2>
+        </div>
 
-<section>
-    <div>
-        <h2 id="gallery">| GALLERY</h2>
-    </div>
+    </section>
+
+    <section>
+        <img data-aos="zoom-in" src="assets/img/inovesta_group.png" title="Image" alt="image.png" height="250">
+        <img data-aos="zoom-in" src="assets/img/awards.png" title="Image" alt="image.png" height="250">
+        <img data-aos="zoom-in" src="assets/img/certificate.png" title="Image" alt="image.png" height="250">
+        <img data-aos="zoom-in" src="assets/img/inovesta_group.png" title="Image" alt="image.png" height="250">
+        <img data-aos="zoom-in" src="assets/img/function.png" title="Image" alt="image.png" height="250">
+        <img data-aos="zoom-in" src="assets/img/inovesta_group.png" title="Image" alt="image.png" height="250">
+
+    </section>
 
 </section>
-
-<section>
-    <table>
-        <thead>
-        <th></th>
-        <th></th>
-        <th></th>
-        </thead>
-
-        <tbody>
-        <tr>
-            <td><img src="assets/img/inovesta_group.png" title="Image" alt="image.png" height="250"></td>
-            <td><img src="assets/img/awards.png" title="Image" alt="image.png" height="250"></td>
-            <td><img src="assets/img/certificate.png" title="Image" alt="image.png" height="250"></td>
-        </tr>
-        <tr>
-            <td><img src="assets/img/inovesta_group.png" title="Image" alt="image.png" height="250"></td>
-            <td><img src="assets/img/function.png" title="Image" alt="image.png" height="250"></td>
-            <td><img src="assets/img/inovesta_group.png" title="Image" alt="image.png" height="250"></td>
-        </tr>
-        </tbody>
-    </table>
-</section>
-
-<br>
-<hr>
-
 
 <!--Contact page-->
 
-<section>
-    <div>
-        <h2 id="contact">| CONTACT</h2>
-    </div>
+<section class="contact">
+    <section>
+        <div>
+            <h2 id="contact">| CONTACT</h2>
+        </div>
 
+    </section>
+
+    <section>
+        <div>
+            <h1>Need <br>
+                Help?</h1>
+        </div>
+
+        <div>
+            <div><a href="https://www.linkedin.com/in/irosh-perera-59481727b/"><img src="../assets/img/linkedin.png"
+                                                                                    title="linkedin" alt="linkedin logo"
+                                                                                    width="30" height="30"></a>
+            </div>
+
+            <div>
+                <a href="https://stackoverflow.com/users/20119095/irosh-lashan"><img
+                        src="../assets/img/stack_overflow.png"
+                        title="stack_overflow"
+                        alt="stack_overflow logo" width="30"
+                        height="30"></a>
+            </div>
+            <div>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src="../assets/img/gmail.png"
+                                                                                   alt="gmail logo"
+                                                                                   title="gmail" width="30" height="30"></a>
+            </div>
+            <div>
+                <a href="https://github.com/IroshPerera"><img src="../assets/img/github.png" title="github"
+                                                              alt="github logo" width="30" height="30"></a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <form class="contact_form">
+
+            <label for="name">Name</label> <br>
+            <input id="name" type="text">
+            <br>
+            <br>
+            <label for="email">Email</label> <br>
+            <input id="email" type="text">
+            <br>
+            <br>
+            <label for="subject">Subject</label> <br>
+            <input id="subject" type="text">
+            <br>
+            <br>
+            <label for="message">Message</label> <br>
+            <textarea id="message" type="text" rows="4" cols="40"></textarea>
+            <br>
+            <br>
+
+            <button type="submit"><span>Send Message</span></button>
+
+        </form>
+
+
+    </section>
 </section>
 
-<section>
-    <div>
-        <h1>Need <br>
-            Help?</h1>
-    </div>
 
-    <div>
-        <a href="https://www.linkedin.com/in/irosh-perera-59481727b/"><img src="../assets/img/linkedin.png"
-                                                                           title="linkedin" alt="linkedin logo"
-                                                                           width="30" height="30"></a>
-        <a href="https://stackoverflow.com/users/20119095/irosh-lashan"><img src="../assets/img/stack_overflow.png"
-                                                                             title="stack_overflow"
-                                                                             alt="stack_overflow logo" width="30"
-                                                                             height="30"></a>
-        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src="../assets/img/gmail.png"
-                                                                           alt="gmail logo"
-                                                                           title="gmail" width="30" height="30"></a>
-        <a href="https://github.com/IroshPerera"><img src="../assets/img/github.png" title="github"
-                                                      alt="github logo" width="30" height="30"></a>
-    </div>
-</section>
-<br>
-<section>
-
-    <form>
-
-        <label for="name">Name</label> <br>
-        <input id="name" type="text" placeholder="Name">
-        <br>
-        <br>
-        <label for="email">Email</label> <br>
-        <input id="email" type="text" placeholder="Email">
-        <br>
-        <br>
-        <label for="subject">Subject</label> <br>
-        <input id="subject" type="text" placeholder="Email">
-        <br>
-        <br>
-        <label for="message">Message</label> <br>
-        <textarea id="message" type="text" placeholder="Message" rows="10" cols="50"></textarea>
-        <br>
-        <br>
-
-        <button type="submit">Send Message</button>
-
-    </form>
-
-
-</section>
-
-<br>
-<br>
 <footer>
     <section>
         <img src="assets/img/footer_logo.png" title="Irosh Perera" alt="image.png" height="20">
@@ -657,6 +570,32 @@
     </section>
 </footer>
 
+<script src="assets/js/lib/jquery.min.js"></script>
+<script src="assets/js/home_page.js"><</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+    document.addEventListener("load", () => {
+        $('.pre_loader').css("display", 'none')
+    });
+
+    // Execute the following code when the window is fully loaded
+    window.onload = () => {
+        $('.pre_loader').css("display", 'none')
+    }
+
+    // Add an event listener for the "DOMContentLoaded" event of the document
+    document.addEventListener("DOMContentLoaded", () => {
+        console.log("B"); // Print "B" to the console
+    });
+
+    // Use jQuery to execute code when the window is ready
+    $(window).ready(() => {
+        console.log("C"); // Print "C" to the console
+    });
+
+</script>
 
 </body>
 </html>
