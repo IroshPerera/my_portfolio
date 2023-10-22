@@ -1,103 +1,235 @@
 
 
-* {
-    font-family: 'Inter', sans-serif;
-    margin: auto;
-}
 
-main {
-    position: relative;
-}
 
-.home {
-    position: relative;
+
+
+/*Projects page*/
+
+.project {
     height: 100vh;
     margin-left: 140px;
     margin-right: 140px;
+    /* background: lightblue;*/
+    position: relative;
+
 }
 
-body > header {
-    width: 100%;
-    height: 60px;
-    margin: 0;
-    background: #ffffff;
-    position: fixed;
-    z-index: 10;
+.project > .cards > div {
+    position: absolute;
 }
 
-body > header > nav > ol {
-    position: absolute;;
-    list-style: none;
-    padding: 0;
-    display: block;
-    top: 30px;
-    right: 140px;
-    margin: auto;
+.project > .cards > div:first-child {
+
+    width: 500px;
+    height: 140px;
+    top: 100px;
+    border: 2px solid #2DCDFF;
+    border-radius: 20px;
+    left: 100px;
+
+
 }
 
-body > header > nav > ol > li {
-    display: inline;
-    padding: 18px;
-    font-size: 18px;
-    color: black;
-    font-weight: bolder;
+.project > .cards > div:first-child > img {
+
+    height: 100px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 20px;
+
 }
 
-.main > section:first-child {
+.project > .cards > div:first-child > h3 {
 
     position: absolute;
-    top: 180px;
-
-
-}
-
-.main > section:nth-child(2) {
-
-    position: absolute;
-    top: 50px;
     right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.project > .cards > div:first-child > p {
+
+    position: absolute;
+    right: 55px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    bottom: 15px;
 
 
 }
 
-.main > section:nth-child(2) > img {
+.project > .cards > div:first-child > a {
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
 
 
-    height: 600px;
 }
 
-.main > section:first-child > span {
-    display: block;
-    font-weight: bolder;
-    font-size: 75px;
+.project > .cards > div:first-child > a > img {
+
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    width: 40px;
+    height: 40px;
+
 }
 
-.main > section:first-child > span:nth-child(3) {
-    display: block;
-    font-weight: bolder;
-    font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.project > .cards > div:nth-child(2) {
+    position: absolute;
+    width: 500px;
+    height: 140px;
+    border: 2px solid #2DCDFF;
+    border-radius: 20px;
+    right: 100px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
 }
 
-.main > section:first-child > span:nth-child(2) > span {
-    color: #2DCDFF;
+.project > .cards > div:nth-child(2) > img {
+
+    height: 100px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 20px;
+
 }
 
-.main > section:first-child > button {
+.project > .cards > div:nth-child(2) > h3 {
 
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.project > .cards > div:nth-child(2) > p {
+
+    position: absolute;
+    right: 55px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    bottom: 15px;
+
+
+}
+
+.project > .cards > div:nth-child(2) > a {
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+.project > .cards > div:nth-child(2) > a > img {
+
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.project > .cards > div:nth-child(3) {
+    position: absolute;
+    width: 500px;
+    height: 140px;
+    border: 2px solid #2DCDFF;
+    border-radius: 20px;
+    bottom: 100px;
+    left: 100px;
+    margin: auto;
+
+}
+
+.project > .cards > div:nth-child(3) > img {
+
+    height: 100px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 20px;
+
+}
+
+.project > .cards > div:nth-child(3) > h3 {
+
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.project > .cards > div:nth-child(3) > p {
+
+    position: absolute;
+    right: 55px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    bottom: 15px;
+
+
+}
+
+.project > .cards > div:nth-child(3) > a {
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+.project > .cards > div:nth-child(3) > a > img {
+
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.project_see_more {
+    position: absolute;
+    bottom: 150px;
+    right: 250px;
+
+}
+
+.project_see_more > button {
     background: #2DCDFF;
     width: 210px;
     height: 53px;
     border-radius: 30px;
     border: #2DCDFF;
     padding-bottom: 30px;
-    position: relative;
+    position: absolute;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
-.main > section:first-child > button > span {
-
+.project_see_more > button > span {
     font-weight: bolder;
     position: absolute;
     left: 0;
@@ -105,46 +237,371 @@ body > header > nav > ol > li {
     margin: auto;
 }
 
-/*body > div > div:first-child {
-    background: #D4F2FC;
-    height: 1100px;
-    width: 750px;
-    position: absolute;
-    right: 0;
-    bottom: 1px;
-    border-radius: 100%;
-    z-index: -100;
+/*Assignment page*/
+.assigment {
+    height: 100vh;
+    margin-left: 140px;
+    margin-right: 140px;
+    /*  background: #e9faff;*/
+    position: relative;
 }
 
-body > div > div:nth-child(2) {
-    background:white;
-    height: 368px;
-    width: 370px;
-    position: absolute;
-    right: -50px;
-    top: -100px;
-    border-radius: 100%;
-    z-index: -100;
-}*/
+.assigment section:first-child > div {
 
-.main > section:first-child > div > div {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 70px;
+}
+
+.assigment section:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 130px;
+}
+
+/*.assigment section:nth-child(2) > div {
+    border: 1px solid #2DCDFF;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.assigment section:nth-child(2) > div > a > button {
+    background: #2DCDFF;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: #2DCDFF;
+    padding-bottom: 30px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 10px;
+
+}*/
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 120px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 99999;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: black;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content .heading {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.content .para {
+    line-height: 1.5;
+}
+
+.content .btn {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(-45deg, white 0%, #e9faff 100%);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(-45deg, #2DCDFF 0%, #cbf1ff 100%);
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover::before {
+    height: 100%;
+}
+
+.card:hover {
+    box-shadow: none;
+}
+
+.card:hover .btn {
+    color: #212121;
+    background: #e8e8e8;
+}
+
+.content .btn:hover {
+    outline: 2px solid #e8e8e8;
+    background: transparent;
+    color: #e8e8e8;
+}
+
+.content .btn:active {
+    box-shadow: none;
+}
+
+/*Skills Page*/
+
+.skills {
+    height: 100vh;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: relative;
+
+}
+
+.skills > section:first-child {
+
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50px;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(45, 205, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.skills > section:nth-child(2) {
+
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;
+    margin: auto;
+
+
+}
+
+.skills > section:nth-child(3) {
+
+    border: 1px solid #2DCDFF;
+    border-radius: 10px;
+    width: 800px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    margin: auto;
+    display: inline-block;
+
+
+}
+
+.skills > section:nth-child(3) {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust the column width as needed */
+    gap: 10px; /* Adjust the gap between grid items */
+    justify-items: center; /* Center items horizontally within each grid cell */
+    align-items: center; /* Center items vertically within each grid cell */
+
+
+}
+
+.skills > section:nth-child(3) > img {
+
+    animation: logos 1200ms alternate infinite linear;
+
+
+}
+
+.skills > section:nth-child(3) img:nth-last-child(-n+3) {
+    grid-column: span 2; /* Span two columns */
+    justify-self: center; /* Center horizontally within the grid cell */
+}
+
+@keyframes logos {
+
+    from {
+        height: 40px;
+    }
+
+    to {
+        height: 55px;
+    }
+}
+
+.gallery {
+
+    height: 100vh;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: relative;
+
+}
+
+.gallery > section:first-child {
+    position: absolute;
+    top: 100px;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(45, 205, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gallery > section:nth-child(2) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;
+    bottom: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 1px; /* Gap between images */
+    width: fit-content;
+    height: fit-content;
+}
+
+.gallery > section:nth-child(2) > img {
+    max-height: 250px; /* Set the maximum height for the images */
+    width: 100%; /* Ensure the images fit within their respective grid cells */
+}
+
+
+.contact {
+    height: 70vh;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: relative;
+}
+
+.contact > section:first-child > div > h2 {
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(45, 205, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact > section:nth-child(2) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    width: 500px;
+    height: 400px;
+    background: #2DCDFF;
+    border-radius: 10px;
+}
+
+.contact > section:nth-child(2) > div {
+
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.contact > section:nth-child(2) > div > h1 {
+    font-size: 100px;
+    animation: font 2400ms alternate infinite linear;
+
+}
+
+@keyframes font {
+
+    from {
+        font-size: 100px;
+        color: black;
+    }
+
+    to {
+        font-size: 80px;
+
+        color: #5c5d5d;
+    }
+}
+
+@keyframes icons {
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+}
+
+.contact > section:nth-child(2) > div:nth-child(2) {
+    position: absolute;
+    top: 300px;
+    margin: auto;
+}
+
+.contact > section:nth-child(2) > div:nth-child(2) > div {
     background: rgba(0, 0, 0, 0.36);
     width: 60px;
     height: 60px;
     display: inline-block;
     border-radius: 100%;
-}
-
-.main > section:first-child > div {
-    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 
-.main > section:first-child > div > div {
+.contact > section:nth-child(2) > div:nth-child(2) > div {
     position: relative;
+
 }
 
-.main > section:first-child > div > div > a > img {
+.contact > section:nth-child(2) > div:nth-child(2) > div > a > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    animation: icons 3600ms alternate infinite linear;
+
+}
+
+.contact > section:nth-child(3) {
+    position: absolute;
+    top: 0;
+    bottom: 80px;
+    right: 30px;
+    width: 700px;
+    height: 400px;
+    background: #b7b9ba;
+    border-radius: 10px;
+}
+
+.contact_form {
+    width: fit-content;
+    height: fit-content;
     position: absolute;
     left: 0;
     right: 0;
@@ -153,246 +610,73 @@ body > div > div:nth-child(2) {
     margin: auto;
 }
 
-
-.button-86::after,
-.button-86::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -99999;
-    transition: all .4s;
-}
-
-.button-86::before {
-    transform: translate(0%, 0%);
-    width: 100%;
-    height: 100%;
-    background: #28282d;
-    border-radius: 10px;
-}
-
-.button-86::after {
-    transform: translate(10px, 10px);
-    width: 35px;
-    height: 35px;
-    background: #ffffff15;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border-radius: 50px;
-}
-
-.button-86:hover::before {
-    transform: translate(5%, 20%);
-    width: 110%;
-    height: 110%;
-}
-
-.button-86:hover::after {
-    border-radius: 10px;
-    transform: translate(0, 0);
-    width: 100%;
-    height: 100%;
-}
-
-.button-86:active::after {
-    transition: 0s;
-    transform: translate(0, 5%);
-}
-
-/* About page */
-
-.about {
-
-    height: 100vh;
-    margin-left: 140px;
-    margin-right: 140px;
-    background: #ffffff;
-    position: relative;
-
-}
-
-
-.about > section:first-child {
-    background: #ffffff;
-    width: 500px;
-    height: calc(100vh - 30px);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-
-
-}
-
-.about > section:first-child > div:first-child > h2 {
-    font-size: 24px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.about > section:first-child > div:nth-child(2) {
-    position: absolute;
-    width: 320px;
-    right: 0;
-    left: 0;
-    margin: auto;
-}
-
-.about > section:first-child > div:nth-child(2) > img {
-
-    width: 320px;
-}
-
-.about > section:nth-child(2) {
-    background: #ffffff;
-    width: 740px;
-    height: calc(100vh - 30px);
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.about > section:nth-child(2) > div:first-child > h3 {
-    font-size: 40px;
+.contact_form > label {
     font-weight: bolder;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    color: #5c5d5d;
 }
 
-.about > section:nth-child(2) > div:nth-child(2) > p {
-    font-size: 20px;
-    font-weight: revert;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: #a6a6a6;
+input[type="text"] {
+
+    width: 360px;
+    background: #b7b9ba;
+    border: 1px solid black;
 }
 
-.about > section:nth-child(2) > div:nth-child(3) {
-    padding-top: 10px;
-    padding-bottom: 10px;
+textarea[type="text"] {
+
+    background: #b7b9ba;
+    border: 1px solid black;
 }
 
-.about > section:nth-child(2) > div:nth-child(3) > h5 {
-    font-size: 22px;
-    font-weight: bold;
-    margin: 10px;
-    color: #000000;
-}
-
-.about > section:nth-child(2) > div:nth-child(3) > h5 > span {
-    font-size: 22px;
-    font-weight: bold;
-    margin: 10px;
-    color: #2DCDFF;
-}
-
-.about > section:nth-child(2) > div:nth-child(4) > p {
-    font-size: 20px;
-    font-weight: revert;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: #a6a6a6;
-    align-content: center;
-}
-
-.about > section:nth-child(2) > div:nth-child(5) > a > button {
-    background: #2DCDFF;
-    width: 210px;
-    height: 53px;
-    border-radius: 30px;
-    border: #2DCDFF;
-    padding-bottom: 30px;
-    position: absolute;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    right: 0;
-}
-
-.about > section:nth-child(2) > div:nth-child(5) > a > button span {
-
-    font-weight: bolder;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.education {
-    position: relative;
-    height: 100vh;
-    margin-left: 140px;
-    margin-right: 140px;
-
-}
-
-.education > section > section {
-    background: #736262;
-    height: calc(100vh - 30px);
-    width: 100%;
+.contact_form > button {
     position: absolute;
     right: 0;
-    left: 0;
-}
-
-.education > section > section:nth-child(2) > div:nth-child(5) > .line {
     background: #2DCDFF;
     width: 150px;
-    height: 8px;
+    height: 30px;
+    border: 0;
     border-radius: 10px;
-    position: absolute;
-    bottom: 45px;
-    left: 25px;
 }
 
-.education > section > section:nth-child(2) > div:nth-child(5) > .circle {
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    border: 2px solid #2DCDFF;
+.contact_form > button > span {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
     position: absolute;
-    bottom: 40px;
+    height: 30px;
+    width: 100%;
+    background-color: #e9faff;
+
+}
+
+footer > section > h4 {
+    position: absolute;
     left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
 }
 
-.education > section > section:nth-child(2) > div:nth-child(5) > h4 {
+footer > section > img {
     position: absolute;
-    bottom: 62px;
     left: 0;
-}
+    bottom: 0;
+    right: 250px;
+    top: 0;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
 
-.education > section > section:nth-child(2) > div:nth-child(4) {
-    position: absolute;
-    left: 100px;
-    bottom: 100px;
-}
 
-.education > section > section:nth-child(2) > div:nth-child(4) > div {
-    width: 200px;
-    height: max-content;
-    background: rgb(45, 205, 255, 0.2);
-    border-radius: 30px;
-    align-content: center;
-}
-
-.education > section > section:nth-child(2) > div:nth-child(4) > div>p {
-    padding: 20px;
-}
-
-.education > section > section:nth-child(2) > div:nth-child(3) {
-    position: absolute;
-    left: 400px;
-    bottom: 400px;
 }
 
 
-.education > section > section:nth-child(2) > div:nth-child(2) {
-    position: absolute;
-    left: 400px;
-    bottom: 400px;
 
-}
-
-.education > section > section:nth-child(2) > div:first-child {
-    position: absolute;
-    left: 600px;
-    bottom: 600px;
-}
