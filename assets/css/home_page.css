@@ -1,0 +1,1440 @@
+.pre_loader {
+
+    /* background: #2DCDFF;*/
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#pre_loader_over_layer {
+    background: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+
+}
+
+.pre_loader > img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+}
+
+main {
+    position: relative;
+}
+
+.home {
+    position: relative;
+    height: 100vh;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+body > header {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    background: rgb(233, 250, 255, 0.8);
+    position: fixed;
+    z-index: 10;
+}
+
+body > header > nav > ol {
+    position: absolute;;
+    list-style: none;
+    padding: 0;
+    display: block;
+    top: 30px;
+    right: 140px;
+    margin: auto;
+}
+
+body > header > nav > ol > li {
+    display: inline;
+    padding: 18px;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+}
+
+.main > section:first-child {
+
+    position: absolute;
+    top: 180px;
+
+
+}
+
+.main > section:nth-child(2) {
+
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+
+}
+
+.main > section:nth-child(2) > img {
+
+
+    height: 600px;
+}
+
+.main > section:first-child > span {
+    display: block;
+    font-weight: bolder;
+    font-size: 75px;
+}
+
+.main > section:first-child > span:nth-child(3) {
+    display: block;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.main > section:first-child > span:nth-child(2) > span {
+    color: #2DCDFF;
+}
+
+.main > section:first-child > button {
+
+    background: #2DCDFF;
+    width: 210px;
+    height: 53px;
+    border-radius: 30px;
+    border: #2DCDFF;
+    padding-bottom: 30px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main > section:first-child > button > span {
+
+    font-weight: bolder;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.main > section:first-child > div > div {
+    background: rgba(0, 0, 0, 0.36);
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.main > section:first-child > div {
+    padding-top: 30px;
+
+}
+
+.main > section:first-child > div > div {
+    position: relative;
+}
+
+.main > section:first-child > div > div > a > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+/* Media*/
+
+
+@media all and (max-width: 1410px) {
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+
+
+
+}
+
+
+@media all and (max-width: 1300px) {
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .main > section:nth-child(2) > img {
+
+
+        height: 580px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 65px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 35px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+
+    }
+
+
+}
+
+@media all and (max-width: 1260px) {
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .main > section:nth-child(2) > img {
+
+
+        height: 550px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 60px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+
+}
+
+@media all and (max-width: 1180px) {
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+
+    .main > section:nth-child(2) > img {
+
+
+        height: 530px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 58px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 28px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+
+}
+
+
+@media all and (max-width: 1150px) {
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .main > section:nth-child(2) > img {
+
+
+        height: 520px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 56px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+
+}
+
+
+@media all and (max-width: 1050px) {
+
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+        top: 50px;
+
+        height: 450px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 52px;
+        position: relative;
+        top: 50px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .main > section:first-child > button {
+
+        background: #2DCDFF;
+        width: 192px;
+        height: 48px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: relative;
+        top: 45px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 15px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main > section:first-child > div {
+        margin-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 55px;
+        height: 55px;
+        display: inline-block;
+        border-radius: 100%;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media all and (max-width: 1025px) {
+
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+        top: 50px;
+
+        height: 450px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .main > section:first-child > button {
+
+        background: #2DCDFF;
+        width: 192px;
+        height: 48px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: relative;
+        top: 45px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 15px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main > section:first-child > div {
+        margin-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 55px;
+        height: 55px;
+        display: inline-block;
+        border-radius: 100%;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+@media all and (max-width: 1000px) {
+
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+        top: 60px;
+
+        height: 450px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 46px;
+        position: relative;
+        top: 60px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .main > section:first-child > button {
+
+        background: #2DCDFF;
+        width: 170px;
+        height: 44px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: relative;
+        top: 45px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 13px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main > section:first-child > div {
+        margin-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 55px;
+        height: 55px;
+        display: inline-block;
+        border-radius: 100%;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+@media all and (max-width: 970px) {
+
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+        top: 70px;
+
+        height: 420px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 46px;
+        position: relative;
+        top: 60px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .main > section:first-child > button {
+
+        background: #2DCDFF;
+        width: 170px;
+        height: 44px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: relative;
+        top: 45px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 13px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main > section:first-child > div {
+        margin-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 55px;
+        height: 55px;
+        display: inline-block;
+        border-radius: 100%;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+@media all and (max-width: 920px) {
+
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+        top: 80px;
+
+        height: 400px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 42px;
+        position: relative;
+        top: 80px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+
+    .main > section:first-child > button {
+
+        background: #2DCDFF;
+        width: 160px;
+        height: 40px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: relative;
+        top: 45px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 12px;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main > section:first-child > div {
+        margin-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 52px;
+        height: 52px;
+        display: inline-block;
+        border-radius: 100%;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+
+@media all and (max-width: 875px) {
+
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+        top: 90px;
+
+        height: 380px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 42px;
+        position: relative;
+        top: 80px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+
+    .main > section:first-child > button {
+
+        background: #2DCDFF;
+        width: 160px;
+        height: 40px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: relative;
+        top: 45px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 12px;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main > section:first-child > div {
+        margin-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 52px;
+        height: 52px;
+        display: inline-block;
+        border-radius: 100%;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+
+@media all and (max-width: 855px) {
+
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+        top: 100px;
+
+        height: 360px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 42px;
+        position: relative;
+        top: 80px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+
+    .main > section:first-child > button {
+
+        background: #2DCDFF;
+        width: 160px;
+        height: 40px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: relative;
+        top: 45px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 12px;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main > section:first-child > div {
+        margin-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 52px;
+        height: 52px;
+        display: inline-block;
+        border-radius: 100%;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+
+@media all and (max-width: 815px) {
+
+
+    /*Home*/
+    .home {
+        position: relative;
+        height: 100vh;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+        top: 120px;
+
+        height: 340px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 38px;
+        position: relative;
+        top: 90px;
+    }
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 18px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+
+    .main > section:first-child > button {
+
+        background: #2DCDFF;
+        width: 160px;
+        height: 40px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: relative;
+        top: 45px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 12px;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main > section:first-child > div {
+        margin-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 52px;
+        height: 52px;
+        display: inline-block;
+        border-radius: 100%;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /*Home*/
+    .home {
+        position: relative;
+        /* height: 100vh; */
+        margin: 0 auto;
+    }
+
+    .education,.project,.assigment,.skills,.gallery,.contact,footer{
+        display: none;
+    }
+
+    .main > section:nth-child(2) {
+
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        top: 350px;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+
+        left: 0;
+        right: 0;
+        top: -15px;
+        margin: auto;
+        height: 350px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 42px;
+        position: relative;
+        top: 90px;
+    }
+
+    #txt_hello {
+        position: relative;
+        top: -70px;
+        /* left: 250px; */
+        text-align: center;
+
+    }
+
+    #txt_IM {
+        /* position: relative; */
+        /* bottom: 0; */
+        /* left: 108px; */
+        text-align: center;
+        top: 282px;
+
+
+    }
+
+    #txt_full_stack {
+        top: 248px;
+        text-align: center;
+    }
+
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 24px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+
+    .main > section:first-child > button {
+
+        /* background: #2DCDFF;
+         width: 160px;
+         height: 40px;
+         border-radius: 26px;
+         border: #2DCDFF;
+         padding-bottom: 30px;
+         position: relative;
+         top: 190px;
+         align-items: center;
+         !* left: 215px; *!
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+
+        background: #2DCDFF;
+        width: 160px;
+        height: 40px;
+        border-radius: 26px;
+        border: none; /* Specify border properly, e.g., border: 1px solid #2DCDFF; */
+        padding: 0; /* Remove unnecessary padding-bottom */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        position: absolute;
+        left: 50%;
+        top: 445px;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 12px;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main > section:first-child > div {
+        position: absolute;
+        left: 50%;
+        top: 460px;
+        transform: translate(-50%, -50%);
+    }
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        border-radius: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 22px;
+        height: 22px;
+    }
+
+
+
+    .main > section:first-child {
+        position: relative;
+        top: 180px;
+    }
+}
+@media all and (max-width: 510px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /*Home*/
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        border-radius: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media all and (max-width: 430px) {
+    /*Home*/
+
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Center the .home container */
+    .home {
+        position: relative;
+        margin: 0 auto; /* Center horizontally */
+    }
+
+    .main > section:nth-child(2) {
+
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        top: 350px;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .main > section:nth-child(2) > img {
+        position: relative;
+
+        left: 0;
+        right: 0;
+        top: -30px;
+        margin: auto;
+        height: 260px;
+    }
+
+    .main > section:first-child > span {
+        display: block;
+        font-weight: bolder;
+        font-size: 28px;
+        position: relative;
+        top: 90px;
+    }
+
+    #txt_hello {
+        position: relative;
+        top: -60px;
+        /* left: 250px; */
+        text-align: center;
+
+    }
+
+    #txt_IM {
+        /* position: relative; */
+        /* bottom: 0; */
+        /* left: 108px; */
+        text-align: center;
+        top: 282px;
+
+
+    }
+
+    #txt_full_stack {
+        top: 248px;
+        text-align: center;
+    }
+
+
+    .main > section:first-child > span:nth-child(3) {
+        display: block;
+        font-weight: bolder;
+        font-size: 18px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+
+    .main > section:first-child > button {
+
+        /* background: #2DCDFF;
+         width: 160px;
+         height: 40px;
+         border-radius: 26px;
+         border: #2DCDFF;
+         padding-bottom: 30px;
+         position: relative;
+         top: 190px;
+         align-items: center;
+         !* left: 215px; *!
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+
+        background: #2DCDFF;
+        width: 160px;
+        height: 40px;
+        border-radius: 26px;
+        border: none; /* Specify border properly, e.g., border: 1px solid #2DCDFF; */
+        padding: 0; /* Remove unnecessary padding-bottom */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        position: absolute;
+        left: 50%;
+        top: 405px;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .main > section:first-child > button > span {
+
+        font-weight: bolder;
+        font-size: 12px;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #icon_list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 0 auto;
+    }
+
+
+    .main > section:first-child > div > div {
+        background: rgba(0, 0, 0, 0.36);
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        border-radius: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .main > section:first-child > div {
+        padding-top: 30px;
+
+    }
+
+    .main > section:first-child > div > div {
+        position: relative;
+    }
+
+    .main > section:first-child > div > div > a > img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 16px;
+        height: 16px;
+    }
+
+
+
+    .main > section:first-child {
+        position: relative;
+        top: 180px;
+    }
+
+
+}
