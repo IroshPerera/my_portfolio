@@ -1081,7 +1081,7 @@ body > header > nav > ol > li {
         margin: 0 auto;
     }
 
-    .education,.project,.assigment,.skills,.gallery,.contact,footer{
+    .education,.assigment,.skills,.gallery,.contact,footer{
         display: none;
     }
 
