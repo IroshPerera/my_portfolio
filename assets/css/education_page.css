@@ -1,0 +1,309 @@
+/*Education page*/
+
+.education {
+    position: relative;
+    height: 100vh;
+    margin-left: 140px;
+    margin-right: 140px;
+
+}
+
+.education > section > section {
+    height: calc(100vh - 30px);
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.education > section > section:first-child > div {
+
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 40px;
+
+}
+
+.education > section > section:first-child > div > h2 {
+
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(45, 205, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.education > section > section:nth-child(2) > div:nth-child(5) > .line {
+    background: #2DCDFF;
+    width: 150px;
+    height: 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(5) > .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid #2DCDFF;
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(5) > h4 {
+    position: absolute;
+    bottom: 67px;
+    left: 0;
+}
+
+/*--------------------------------------------------------------------------*/
+.education > section > section:nth-child(2) > div:nth-child(4) {
+    position: absolute;
+    left: 140px;
+    bottom: 105px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(4) > img {
+    position: absolute;
+    left: 60px;
+    bottom: 210px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(4) > h3 {
+    position: absolute;
+    left: 10px;
+    bottom: 180px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(4) > div > h4 {
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+    font-size: 25px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(4) > div {
+    width: 200px;
+    height: max-content;
+    background: rgb(45, 205, 255, 0.2);
+    border-radius: 30px;
+    align-content: center;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(4) > div > p {
+    padding: 20px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(4) > div .line {
+    background: #2DCDFF;
+    width: 150px;
+    height: 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 130px;
+    left: 25px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(4) > div .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid #2DCDFF;
+    position: absolute;
+    bottom: 125px;
+    left: 0;
+}
+
+
+/*--------------------------------------------------------------------------*/
+.education > section > section:nth-child(2) > div:nth-child(3) {
+    position: absolute;
+    left: 420px;
+    bottom: 190px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(3) > img {
+    position: absolute;
+    left: 60px;
+    bottom: 210px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(3) > h3 {
+    position: absolute;
+    left: 10px;
+    bottom: 180px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(3) > div > h4 {
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+    font-size: 25px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(3) > div {
+    width: 200px;
+    height: max-content;
+    background: rgb(45, 205, 255, 0.2);
+    border-radius: 30px;
+    align-content: center;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(3) > div > p {
+    padding: 20px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(3) > div .line {
+    background: #2DCDFF;
+    width: 150px;
+    height: 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 140px;
+    left: 25px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(3) > div .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid #2DCDFF;
+    position: absolute;
+    bottom: 135px;
+    left: 0;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+
+.education > section > section:nth-child(2) > div:nth-child(2) {
+    position: absolute;
+    left: 680px;
+    bottom: 300px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(2) > img {
+    position: absolute;
+    left: 60px;
+    bottom: 230px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(2) > h3 {
+    position: absolute;
+    left: 40px;
+    bottom: 180px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(2) > div > h4 {
+    position: absolute;
+    left: 60px;
+    bottom: 150px;
+    font-size: 25px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(2) > div {
+    width: 200px;
+    height: max-content;
+    background: rgb(45, 205, 255, 0.2);
+    border-radius: 30px;
+    align-content: center;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(2) > div > p {
+    padding: 20px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(2) > div .line {
+    background: #2DCDFF;
+    width: 150px;
+    height: 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 140px;
+    left: 25px;
+}
+
+.education > section > section:nth-child(2) > div:nth-child(2) > div .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid #2DCDFF;
+    position: absolute;
+    bottom: 135px;
+    left: 0;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+
+.education > section > section:nth-child(2) > div:first-child {
+    position: absolute;
+    left: 930px;
+    bottom: 400px;
+}
+
+.education > section > section:nth-child(2) > div:first-child > img {
+    position: absolute;
+    left: 60px;
+    bottom: 230px;
+}
+
+.education > section > section:nth-child(2) > div:first-child > h3 {
+    position: absolute;
+    left: 40px;
+    bottom: 180px;
+}
+
+.education > section > section:nth-child(2) > div:first-child > div > h4 {
+    position: absolute;
+    left: 60px;
+    bottom: 150px;
+    font-size: 25px;
+}
+
+.education > section > section:nth-child(2) > div:first-child > div {
+    width: 200px;
+    height: max-content;
+    background: rgb(45, 205, 255, 0.2);
+    border-radius: 30px;
+    align-content: center;
+}
+
+.education > section > section:nth-child(2) > div:first-child > div > p {
+    padding: 20px;
+}
+
+.education > section > section:nth-child(2) > div:first-child > div .line {
+    background: #2DCDFF;
+    width: 150px;
+    height: 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 140px;
+    left: 25px;
+}
+
+.education > section > section:nth-child(2) > div:first-child > div .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid #2DCDFF;
+    position: absolute;
+    bottom: 135px;
+    left: 0;
+}
+
+
+/*Media*/
+
+
+@media all and (max-width:1300px){
+
+
+
+
+}
