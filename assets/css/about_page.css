@@ -1,0 +1,1173 @@
+/* About page */
+
+.about {
+
+    height: 100vh;
+    margin-left: 140px;
+    margin-right: 140px;
+    background: #ffffff;
+    position: relative;
+
+}
+
+
+.about > section:first-child {
+    background: #ffffff;
+    width: 500px;
+    height: calc(100vh - 30px);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+
+}
+
+.about > section:first-child > div:first-child > h2 {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about > section:first-child > div:nth-child(2) {
+    position: absolute;
+    width: 320px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.about > section:first-child > div:nth-child(2) > img {
+
+    width: 320px;
+}
+
+.about > section:nth-child(2) {
+    background: #ffffff;
+    width: 740px;
+    height: calc(100vh - 30px);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.about > section:nth-child(2) > div:first-child > h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.about > section:nth-child(2) > div:nth-child(2) > p {
+    font-size: 20px;
+    font-weight: revert;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #a6a6a6;
+}
+
+.about > section:nth-child(2) > div:nth-child(3) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about > section:nth-child(2) > div:nth-child(3) > h5 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    color: #000000;
+}
+
+.about > section:nth-child(2) > div:nth-child(3) > h5 > span {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    color: #2DCDFF;
+}
+
+.about > section:nth-child(2) > div:nth-child(4) > p {
+    font-size: 20px;
+    font-weight: revert;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #a6a6a6;
+    align-content: center;
+}
+
+.about > section:nth-child(2) > div:nth-child(5) > a > button {
+    background: #2DCDFF;
+    width: 210px;
+    height: 53px;
+    border-radius: 30px;
+    border: #2DCDFF;
+    padding-bottom: 30px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    right: 0;
+}
+
+.about > section:nth-child(2) > div:nth-child(5) > a > button span {
+
+    font-weight: bolder;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/*Media*/
+
+@media all and (max-width: 1410px) {
+    .about {
+        position: relative;
+        height: 100vh;
+        margin-left: 120px;
+        margin-right: 120px;
+
+    }
+}
+
+@media all and (max-width: 1285px) {
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 280px;
+        position: relative;
+        top: 50px;
+        right: 20%;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 35px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(2) > p {
+        font-size: 18px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(4) > p {
+        font-size: 18px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+        align-content: center;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+        color: #000000;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 > span {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px;
+        color: #2DCDFF;
+    }
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 700px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 200px;
+        height: 47px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 0;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 15px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+@media all and (max-width: 1300px) {
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 250px;
+        position: relative;
+        top: 50px;
+        right: 20%;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 32px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(2) > p {
+        font-size: 16px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(4) > p {
+        font-size: 16px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+        align-content: center;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px;
+        color: #000000;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 > span {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+        color: #2DCDFF;
+    }
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 670px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 170px;
+        height: 40px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 0;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 12px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+}
+
+@media all and (max-width: 1210px) {
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 230px;
+        position: relative;
+        top: 60px;
+        right: 20%;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(2) > p {
+        font-size: 15px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(4) > p {
+        font-size: 15px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+        align-content: center;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+        color: #000000;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 > span {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+        color: #2DCDFF;
+    }
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 650px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 170px;
+        height: 40px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 0;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 12px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+
+
+}
+
+
+@media all and (max-width: 1150px) {
+
+    .about {
+        position: relative;
+        height: 100vh;
+        margin-left: 90px;
+        margin-right: 90px;
+
+    }
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 230px;
+        position: relative;
+        top: 60px;
+        right: 20%;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(2) > p {
+        font-size: 15px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(4) > p {
+        font-size: 15px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+        align-content: center;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+        color: #000000;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 > span {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+        color: #2DCDFF;
+    }
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 620px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 170px;
+        height: 40px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 15px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 12px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+
+
+}
+
+@media all and (max-width: 1080px) {
+    .about {
+        position: relative;
+        height: 100vh;
+        margin-left: 90px;
+        margin-right: 90px;
+
+    }
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 220px;
+        position: relative;
+        top: 70px;
+        right: 20%;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(2) > p {
+        font-size: 15px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(4) > p {
+        font-size: 15px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+        align-content: center;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+        color: #000000;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 > span {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+        color: #2DCDFF;
+    }
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 600px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 170px;
+        height: 40px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 15px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 12px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+
+
+}
+
+@media all and (max-width: 1040px) {
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 580px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 200px;
+        position: relative;
+        top: 80px;
+        right: 20%;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 150px;
+        height: 36px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 15px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 10px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 500px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 200px;
+        position: relative;
+        top: 80px;
+        right: 20%;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 150px;
+        height: 36px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 15px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 10px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 28px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+@media all and (max-width: 920px) {
+
+
+    .about {
+        position: relative;
+        height: 100vh;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 460px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 200px;
+        position: relative;
+        top: 80px;
+        right: 20%;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 150px;
+        height: 36px;
+        border-radius: 30px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 15px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 10px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 28px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 865px) {
+
+
+    .about {
+        position: relative;
+        height: 100vh;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 450px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 200px;
+        position: relative;
+        top: 80px;
+        right: 20%;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 120px;
+        height: 36px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 15px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 10px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 28px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(2) > p {
+        font-size: 14px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(4) > p {
+        font-size: 14px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+        align-content: center;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 > span {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+        color: #2DCDFF;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+        color: #000000;
+    }
+}
+
+@media all and (max-width: 855px) {
+
+    .about {
+        position: relative;
+        height: 100vh;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 420px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 200px;
+        position: relative;
+        top: 80px;
+        right: 20%;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 120px;
+        height: 36px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 15px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 10px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 28px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(2) > p {
+        font-size: 14px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(4) > p {
+        font-size: 14px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+        align-content: center;
+        row-gap: 10px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 > span {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+        color: #2DCDFF;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+        color: #000000;
+    }
+
+}
+
+@media all and (max-width: 805px) {
+    .about {
+        position: relative;
+        height: 100vh;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .about > section:nth-child(2) {
+        background: #ffffff;
+        width: 400px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 200px;
+        position: relative;
+        top: 80px;
+        right: 20%;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+        background: #2DCDFF;
+        width: 120px;
+        height: 36px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        padding-bottom: 30px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        right: 15px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button span {
+        font-weight: bolder;
+        font-size: 10px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 8px;
+        margin: auto;
+        bottom: 0;
+    }
+
+    .about > section:first-child > div:first-child > h2 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 26px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(2) > p {
+        font-size: 14px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(4) > p {
+        font-size: 14px;
+        font-weight: revert;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #a6a6a6;
+        align-content: center;
+        row-gap: 10px;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 > span {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+        color: #2DCDFF;
+    }
+
+    .about > section:nth-child(2) > div:nth-child(3) > h5 {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+        color: #000000;
+    }
+}
+
+@media all and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .about {
+        width: 100%;
+        margin: 0 auto;
+        top: -85px;
+        background: rgb(255,255,255,0);
+    }
+
+    #about_image {
+        width: 100%;
+    }
+
+    #about_content {
+        position: relative;
+        width: 400px;
+
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 398px;
+        margin: auto;
+        background: rgb(255, 255, 255, 0);
+
+    }
+
+    .about > section:first-child > div:nth-child(2) {
+        position: absolute;
+        height: 200px;
+        width: fit-content;
+        right: 0;
+        left: 0;
+        top: 10px;
+        margin: auto;
+    }
+
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+
+        background: #2DCDFF;
+        width: 120px;
+        height: 36px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        /* padding-bottom: 30px; */
+        /* position: relative; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        /* right: 15px; */
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 510px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .about {
+        width: 100%;
+        margin: 0 auto;
+        top: -135px;
+        background: rgb(255,255,255,0);
+
+    }
+    .about > section:first-child {
+        background: rgb(255,255,255,0);
+        width: 500px;
+        height: calc(100vh - 30px);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    #about_image {
+        width: 100%;
+    }
+
+    .about > section:first-child > div:nth-child(2) > img {
+        width: 180px;
+        position: relative;
+        top: 80px;
+        right: 20%;
+        background: rgb(255,255,255,0);
+    }
+
+    #about_content {
+        position: relative;
+        width: 350px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 398px;
+        margin: auto;
+        background: rgb(255, 255, 255, 0);
+
+    }
+
+    .about > section:first-child > div:nth-child(2) {
+        position: absolute;
+        height: 242px;
+        width: fit-content;
+        right: 0;
+        left: 0;
+        top: 10px;
+        margin: auto;
+    }
+
+
+    .about > section:nth-child(2) > div:nth-child(5) > a > button {
+
+        background: #2DCDFF;
+        width: 120px;
+        height: 36px;
+        border-radius: 26px;
+        border: #2DCDFF;
+        /* padding-bottom: 30px; */
+        /* position: relative; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        /* right: 15px; */
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 430px) {
+    #about_content {
+        position: relative;
+        width: 300px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 398px;
+        margin: auto;
+        background: rgb(255, 255, 255, 0);
+
+    }
+
+    .about > section:nth-child(2) > div:first-child > h3 {
+        font-size: 22px;
+        font-weight: bolder;
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+}
