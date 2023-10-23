@@ -1,0 +1,258 @@
+/*Skills Page*/
+
+.skills {
+    height: 100vh;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: relative;
+
+}
+
+.skills > section:first-child {
+
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50px;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(45, 205, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.skills > section:nth-child(2) {
+
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;
+    margin: auto;
+
+
+}
+
+.skills > section:nth-child(3) {
+
+    border: 1px solid #2DCDFF;
+    border-radius: 10px;
+    width: 800px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    margin: auto;
+    display: inline-block;
+
+
+}
+
+.skills > section:nth-child(3) {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust the column width as needed */
+    gap: 10px; /* Adjust the gap between grid items */
+    justify-items: center; /* Center items horizontally within each grid cell */
+    align-items: center; /* Center items vertically within each grid cell */
+
+
+}
+
+.skills > section:nth-child(3) > img {
+
+    animation: logos 1200ms alternate infinite linear;
+
+
+}
+
+.skills > section:nth-child(3) img:nth-last-child(-n+3) {
+    grid-column: span 2; /* Span two columns */
+    justify-self: center; /* Center horizontally within the grid cell */
+}
+
+@keyframes logos {
+
+    from {
+        height: 40px;
+    }
+
+    to {
+        height: 55px;
+    }
+}
+
+
+@media all and (max-width: 1300px) {
+
+    .skills > section:nth-child(2) > img {
+        height: 300px;
+    }
+}
+
+
+@media all and (max-width: 1155px) {
+
+    .skills {
+        position: relative;
+        height: 100vh;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+
+    .skills > section:nth-child(2) > img {
+        height: 280px;
+    }
+
+}
+
+@media all and (max-width: 995px) {
+
+    .skills > section:nth-child(2) > img {
+        height: 250px;
+        position: relative;
+        top: 50px;
+    }
+
+    .skills > section:nth-child(3) > img {
+
+        height: 50px;
+        animation: logos 1200ms alternate infinite linear;
+
+    }
+
+    @keyframes logos {
+
+        from {
+            height: 40px;
+        }
+
+        to {
+            height: 48px;
+        }
+    }
+
+
+}
+
+@media all and (max-width: 930px) {
+    .skills > section:nth-child(3) {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(82px, 1fr));
+        gap: 0;
+        justify-items: center;
+        align-items: center;
+        border: 1px solid #2DCDFF;
+        border-radius: 10px;
+        width: 100%; /* Use a percentage width to make it responsive */
+        max-width: 640px; /* Set a max-width for larger screens */
+        height: 150px;
+        margin: 0 auto; /* Center the element horizontally */
+    }
+}
+
+@media all and (max-width: 910px) {
+    .skills > section:nth-child(2) > img {
+        height: 230px;
+        position: relative;
+        top: 60px;
+    }
+}
+
+@media all and (max-width: 855px) {
+    .skills > section:nth-child(2) > img {
+        height: 200px;
+        position: relative;
+        top: 70px;
+    }
+}
+
+@media all and (max-width: 778px) {
+
+
+    .skills {
+        /*height: auto;*/
+        width: 100%;
+        margin: 0 auto;
+        /*  background: #e9faff;*/
+        position: relative;
+        top: 300px;
+    }
+
+
+}
+
+@media all and (max-width: 610px) {
+
+   .skills > section:nth-child(2) > img {
+        display: block;
+        height: 200px;
+        position: relative;
+        top: 25px;
+        margin-bottom: 50px;
+    }
+/*
+    .skills > section:nth-child(3) {
+        display: flex;
+        !* grid-template-columns: repeat(auto-fill, minmax(82px, 1fr)); *!
+        flex-direction: column;
+        !* gap: 0; *!
+        !* justify-items: center; *!
+        !* align-items: center; *!
+        !* border: 1px solid #2DCDFF; *!
+        !* border-radius: 10px; *!
+        !* width: 100%; *!
+        !* max-width: 640px; *!
+        !* height: 150px; *!
+        !* margin: 0 auto; *!
+    }
+    .skills > section:nth-child(3) {
+        !* border: 1px solid #2DCDFF; *!
+        !* border-radius: 10px; *!
+        !* width: 800px; *!
+        height: 150px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 80px;
+        margin: auto;
+        !* display: inline-block; *!
+    }
+    .skills > section:nth-child(3) {
+        !* border: 1px solid #2DCDFF; *!
+        !* border-radius: 10px; *!
+        width: 130px;
+        height: 830px;
+        position: relative;
+        top: 640px;
+        left: 0;
+        right: 0;
+        bottom: 80px;
+        margin: 0 auto;
+        !* display: inline-block; *!
+    }*/
+
+    .skills > section:nth-child(3) {
+        display: grid;
+        /* border: 1px solid #2DCDFF; */
+        /* border-radius: 10px; */
+        width: 236px;
+        height: 830px;
+        position: relative;
+        top: 640px;
+        left: 0;
+        right: 0;
+        bottom: 80px;
+        margin: 0 auto;
+        /* display: inline-block; */
+    }
+
+
+    .skills > section:nth-child(3) img:nth-last-child(-n+3) {
+         grid-column: inherit;
+        justify-self: center;
+    }
+
+}
