@@ -150,7 +150,7 @@
 
 
     .assigment {
-        height: 100%;
+       /* height: 100%;*/
         width: 100%;
         margin: 0 auto;
         /*  background: #e9faff;*/
@@ -171,22 +171,17 @@
 
 @media all and (max-width: 610px) {
     .assigment {
-        height: 100%;
+        height: 2165px;
         width: 100%;
         margin: 0 auto;
-        /* background: #e9faff; */
+        /*background: red;*/
         top: 340px;
-        position: relative;
+        position: relative
     }
 
     .assigment section:nth-child(2) {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 135px;
+        display: block;
+
     }
     .assigment section:nth-child(2) {
         display: grid;
