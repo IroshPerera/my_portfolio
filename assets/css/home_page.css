@@ -1091,7 +1091,7 @@ body > header > nav > ol > li {
         margin: auto;
     }
 
-    .education,.gallery,.contact,footer,header>ol{
+    .education,footer,header>ol{
         display: none;
     }
 

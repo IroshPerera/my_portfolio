@@ -24,13 +24,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+
     <link rel="stylesheet" href="/assets/css/home_page.css">
     <link rel="stylesheet" href="/assets/css/about_page.css">
     <link rel="stylesheet" href="/assets/css/education_page.css">
     <link rel="stylesheet" href="/assets/css/project_page.css">
     <link rel="stylesheet" href="/assets/css/assignment_page.css">
     <link rel="stylesheet" href="/assets/css/skills_page.css">
+    <link rel="stylesheet" href="/assets/css/gallery_page.css">
+    <link rel="stylesheet" href="/assets/css/contact_page.css">
 
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -50,14 +52,15 @@
 </div>-->
 <header>
 
+
     <nav>
 
         <ol>
-            <li>Home</li>
-            <li>About</li>
-            <li>Project</li>
-            <li>Gallery</li>
-            <li>Contact</li>
+            <li class="nav_items">Home</li>
+            <li class="nav_items">About</li>
+            <li class="nav_items">Project</li>
+            <li class="nav_items">Gallery</li>
+            <li class="nav_items">Contact</li>
         </ol>
     </nav>
 
@@ -525,6 +528,7 @@
 
     </section>
 
+
     <section>
         <div>
             <h1>Need <br>
@@ -558,7 +562,7 @@
 
     <section>
 
-        <form class="contact_form">
+        <form class="contact_form" id="contactForm">
 
             <label for="name">Name</label> <br>
             <input id="name" type="text">
@@ -600,6 +604,7 @@
 
 <script>
     AOS.init();
+
     document.addEventListener("load", () => {
         $('.pre_loader').css("display", 'none')
     });
